@@ -1,0 +1,33 @@
+/**
+ * CSS File
+ */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border-radius: 0!important;
+}
+
+.productCard {
+	margin-top: 15px;
+}
+
+.fbLogo {
+	width: 100%;
+	margin-top: 64px;
+}
+
+.indentSides {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}

@@ -1,0 +1,28 @@
+{
+  "name" : "GreenFridge",
+  "version": "0.0.1",
+  "description": "Project Description",
+  "scripts": {
+    "make" : "./node_modules/.bin/gulp",
+    "test" : "npm run-script make && ./node_modules/.bin/gulp test",
+    "serve" : "npm run-script make && node bin/server/main.js"
+  },
+  "dependencies": {
+    "react-tap-event-plugin" : "latest",
+    "react-chartjs" : "latest",
+    "reactfire" : "latest",
+    "express" : "latest",
+    "firebase" : "latest",
+    "material-ui" : "latest",
+    "gulp" : "latest",
+    "gulp-typescript" : "latest",
+    "gulp-nodeunit" : "latest",
+    "browserify" : "latest",
+    "reactify" : "latest",
+    "react" : "latest",
+    "react-dom" : "latest",
+    "vinyl-source-stream" : "latest"
+  },
+  "author": "Aaron Nech",
+  "license": "N/A"
+}
